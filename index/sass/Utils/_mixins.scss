@@ -3,3 +3,9 @@
     flex-direction: row;
     align-items: center;
 }
+@mixin input_properties{
+    background-color: var(--whiteColor);
+    border-radius: 5px;
+    border: 0.5px solid var(--gray);
+    padding: 8px;
+}

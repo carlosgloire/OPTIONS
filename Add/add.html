@@ -14,13 +14,28 @@
 </head>
 <body>
     <div class="bloc_central">
-        <h2>Modifier une option</h2>
+        <h2>Ajouter un cours</h2>
         <form action="">
             <div>
-                <label for="nom">Options</label>
+                <label for="nom">Nom du cours</label>
+                <input type="text" name="nom" placeholder="Nom du cours">
+            </div>
+            <div>
+                <label for="nom">Niveau</label>
+                <select name="level" id="level">
+                    <option value="7ème">7ème</option>
+                    <option value="8ème">8ème</option>
+                    <option value="1ère">1ère</option>
+                    <option value="2ème">2ème</option>
+                    <option value="3ème">3ème</option>
+                    <option value="4ème">4ème</option>
+                </select>
+            </div>
+            <div>
+                <label for="nom">Option</label>
                 <input type="text" name="nom" placeholder="Commercial et Gestion">
             </div>
-            <button name="modifier">Modifier</button>
+            <button name="modifier">Ajouter</button>
         </form>
     </div>
 </body>

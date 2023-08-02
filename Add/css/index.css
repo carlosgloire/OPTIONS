@@ -66,17 +66,11 @@ select {
 button {
   width: 100px;
   float: right;
-  border-radius: 10px;
-  padding: 7px 15px;
-  font-family: "Sen", sans-serif;
-  font-weight: bolder;
-  background-color: var(--whiteColor);
-  border: none;
-  border: 1px solid var(--gray);
-}
-button a {
-  text-decoration: none;
-  color: var(--blackColor);
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.5px solid var(--gray);
+  padding: 8px;
 }
 
 label {

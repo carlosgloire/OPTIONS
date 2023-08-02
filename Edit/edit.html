@@ -10,20 +10,32 @@
     <script src="js/highcharts.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Maven+Pro&family=Sen:wght@400;700&display=swap" rel="stylesheet">
 
-    <title>Add</title>
+    <title>Interface SuperAdmin NTech</title>
 </head>
 <body>
     <div class="bloc_central">
-        <h2>Ajouter une Option</h2>
+        <h2>Modifier un cours</h2>
         <form action="">
             <div>
-                <label for="nom">Options</label>
+                <label for="nom">Nom du cours</label>
+                <input type="text" name="nom" placeholder="Nom du cours">
+            </div>
+            <div>
+                <label for="nom">Niveau</label>
+                <select name="level" id="level">
+                    <option value="7ème">7ème</option>
+                    <option value="8ème">8ème</option>
+                    <option value="1ère">1ère</option>
+                    <option value="2ème">2ème</option>
+                    <option value="3ème">3ème</option>
+                    <option value="4ème">4ème</option>
+                </select>
+            </div>
+            <div>
+                <label for="nom">Option</label>
                 <input type="text" name="nom" placeholder="Commercial et Gestion">
             </div>
-            <button>
-                <i class="fa-solid fa-circle-plus"></i>
-                <a href="#">Ajouter</a>
-            </button>
+            <button name="modifier">Modifier</button>
         </form>
     </div>
 </body>

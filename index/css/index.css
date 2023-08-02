@@ -46,7 +46,7 @@ section {
   background-color: var(--whiteColor);
   box-shadow: 0px 0px 1px 0px var(--gray);
 }
-.left-bloc .items .options {
+.left-bloc .items .school {
   padding: 10px;
   padding-left: 30px;
   background-color: var(--whiteColor);
@@ -96,14 +96,12 @@ section {
 .header .menu .nav-menu .items div:hover {
   background-color: var(--principalcolor);
   box-shadow: 0px 0px 1px 0px var(--gray);
-  
 }
 .header .menu .nav-menu .items .school {
   padding: 10px;
   padding-left: 30px;
   background-color: var(--principalcolor);
   box-shadow: 0px 0px 1px 0px var(--gray);
-  
 }
 .header .menu .nav-menu .items .logout {
   margin-top: 100px;
@@ -144,12 +142,27 @@ section {
   background-color: var(--whiteColor);
   box-shadow: 0px 0px 3px 0px var(--gray);
 }
+.allitems .active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.allitems .active a {
+  color: var(--gray);
+}
+.allitems .active h4 {
+  width: 8px;
+  height: 8px;
+  background-color: var(--green);
+  border-radius: 50%;
+}
 .allitems .ecole {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 8px;
 }
 .allitems .ecole div {
   display: flex;
@@ -242,7 +255,7 @@ img {
     padding-right: 10px;
     padding-left: 10px;
   }
-  .ecole-enregistree {
+  .cours-enregistree {
     padding: 10px;
   }
   .allitems .items .logout {

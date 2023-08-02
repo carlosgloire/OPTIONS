@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 input{
     width: 100%;
     @include input_properties();
@@ -20,17 +21,8 @@ select{
 button{
     width: 100px;
     float: right;
-    border-radius: 10px;
-    padding: 7px 15px;
-    font-family: u.$font;
-    font-weight: bolder;
-    background-color: var(--whiteColor);
-    border: none;
-    border: 1px solid var(--gray);
-    a{
-        text-decoration: none;
-        color: var(--blackColor);
-    }
+    cursor: pointer;
+    @include input_properties();
 }
 label{
     margin-bottom: 8px;
